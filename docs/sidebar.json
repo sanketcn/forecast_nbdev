@@ -1,10 +1,7 @@
 {
-  "Notebook": {
-    "Export to modules": "/export",
-    "Convert to html": "/export2html",
-    "Show doc": "/showdoc",
-    "Test functions": "/test",
-    "Core functions": "/core",
-    "Command line functions": "/cli"
+  "forecast_template": {
+    "Overview": "/",
+    "Forecast Notebook": "Forecast.html",
+    "Utils Module": "utils.html"
   }
 }
