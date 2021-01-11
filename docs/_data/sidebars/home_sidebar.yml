@@ -16,6 +16,6 @@ entries:
       title: Utils Module
       url: utils.html
     output: web
-    title: forecast_template
+    title: forecast_nbdev
   output: web
   title: Sidebar

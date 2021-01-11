@@ -1,5 +1,5 @@
 {
-  "forecast_template": {
+  "forecast_nbdev": {
     "Overview": "/",
     "Forecast Notebook": "Forecast.html",
     "Utils Module": "utils.html"
