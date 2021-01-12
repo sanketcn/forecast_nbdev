@@ -558,49 +558,6 @@ nb_path: "Forecast.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># &quot;DatasetType&quot;: &quot;&#39;TARGET_TIME_SERIES&#39;|&#39;RELATED_TIME_SERIES|ITEM_METADATA&#39;&quot;</span>
-
-<span class="n">response</span><span class="o">=</span><span class="n">forecast</span><span class="o">.</span><span class="n">create_dataset</span><span class="p">(</span>
-                    <span class="n">Domain</span><span class="o">=</span><span class="s2">&quot;CUSTOM&quot;</span><span class="p">,</span>
-                    <span class="n">DatasetType</span><span class="o">=</span><span class="n">DATASET_TYPE</span><span class="o">.</span><span class="n">value</span><span class="p">,</span>
-                    <span class="n">DatasetName</span><span class="o">=</span><span class="n">datasetName</span><span class="p">,</span>
-                    <span class="n">DataFrequency</span><span class="o">=</span><span class="n">DATASET_FREQUENCY</span><span class="p">,</span> 
-                    <span class="n">Schema</span> <span class="o">=</span> <span class="n">schema</span>
-<span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasetArn</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="s1">&#39;DatasetArn&#39;</span><span class="p">]</span>
-<span class="n">forecast</span><span class="o">.</span><span class="n">describe_dataset</span><span class="p">(</span><span class="n">DatasetArn</span><span class="o">=</span><span class="n">datasetArn</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Add-Dataset-to-Dataset-Group">Add Dataset to Dataset Group<a class="anchor-link" href="#Add-Dataset-to-Dataset-Group"> </a></h3>
